@@ -1,0 +1,115 @@
+# EESchema Netlist Version 1.1 created  Mon 10 Sep 2012 02:43:35 PM EEST
+(
+ ( /504BB927 $noname  R2 6.2 {Lib=R}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /504BB919 $noname  R1 100k {Lib=R}
+  (    1 +BATT )
+  (    2 N-000001 )
+ )
+ ( /504BB910 $noname  Q1 BC847B {Lib=NPN}
+  (    1 GND )
+  (    2 N-000003 )
+  (    3 N-000001 )
+ )
+ ( /504BB905 $noname  Q2 irlml2803pbf {Lib=MOSFET_N}
+  (    D N-000005 )
+  (    G N-000001 )
+  (    S N-000003 )
+ )
+ ( /504BB8FD $noname  D4 R {Lib=LED}
+  (    1 +BATT )
+  (    2 N-000005 )
+ )
+ ( /504BB8FA $noname  D3 R {Lib=LED}
+  (    1 +BATT )
+  (    2 N-000005 )
+ )
+ ( /504BB8F6 $noname  D2 R {Lib=LED}
+  (    1 +BATT )
+  (    2 N-000005 )
+ )
+ ( /504BB8F0 $noname  D1 R {Lib=LED}
+  (    1 +BATT )
+  (    2 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ Q2 G
+ R1 2
+ Q1 3
+Net 2 "GND" "GND"
+ R2 2
+ Q1 1
+Net 3 "" ""
+ Q2 S
+ R2 1
+ Q1 2
+Net 4 "+BATT" "+BATT"
+ R1 1
+ D1 1
+ D2 1
+ D3 1
+ D4 1
+Net 5 "" ""
+ Q2 D
+ D1 2
+ D2 2
+ D3 2
+ D4 2
+}
+#End

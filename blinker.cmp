@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Mon 10 Sep 2012 02:36:18 PM EEST
+
+BeginCmp
+TimeStamp = /504BB8F0;
+Reference = D1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB8F6;
+Reference = D2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB8FA;
+Reference = D3;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB8FD;
+Reference = D4;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB910;
+Reference = Q1;
+ValeurCmp = BC847B;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB905;
+Reference = Q2;
+ValeurCmp = irlml2803pbf;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB919;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504BB927;
+Reference = R2;
+ValeurCmp = 6.2;
+IdModule  = SM0805;
+EndCmp
+
+EndListe

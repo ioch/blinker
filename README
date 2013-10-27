@@ -1,0 +1,3 @@
+This is small circuit intended to be used as bike back-light. The main idea was to make reliable simple low power device powered by almost dead batteries, which could withstand abuse of extreme (usual) riding condition.
+I end up with constant current (50mA) source made with two transistors driving 4 indicator LED. It is could be fed with any 4-20V power source. Final  build uses magnetic reed switch for swiching purpose.
+More info on wmt.net
